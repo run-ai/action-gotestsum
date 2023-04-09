@@ -135,5 +135,4 @@ export async function run(): Promise<void> {
   core.info(
     `[INFO] Gotestsum version: '${gtsVersion}' has been cached at ${cachedPath}`
   );
-  core.setOutput(getOutputs().GotestsumPath, cachedPath);
 }
