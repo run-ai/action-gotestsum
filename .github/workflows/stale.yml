@@ -1,8 +1,7 @@
 name: "Stale"
 
 on:
-  schedule:
-    - cron: "6 6 * * *"
+  pull_request:
 
 jobs:
   stale:
